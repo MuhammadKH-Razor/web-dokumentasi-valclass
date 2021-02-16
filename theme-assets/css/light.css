@@ -28,3 +28,27 @@ figure {
 pre, code {
     color: rgb(58, 248, 255);
 }
+
+.coom {
+    animation: ds1 1s linear infinite;
+}
+
+@keyframes ds1 {
+    0% {
+        opacity: 1;
+        transform: scale(1);
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@media screen and(max-width: 357px) {
+    .header-navbar {
+        background-color: rgb(34, 30, 58);
+    }
+}
