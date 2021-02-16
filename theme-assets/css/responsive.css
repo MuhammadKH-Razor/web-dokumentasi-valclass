@@ -11,4 +11,9 @@
         width: 85vw;
         text-align: justify;
     }
+
+    .psd {
+        margin-top: 30px;
+        text-align: left;
+    }
 }

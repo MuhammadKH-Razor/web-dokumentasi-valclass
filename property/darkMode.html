@@ -117,17 +117,18 @@
 				<section id="header-footer">
 					<div class="content-header row">
 						<div class="content-header-left col-md-12 col-12 mb-2">
-							<h2 class="content-header-title text-dark">result</h2>
-							<h3 style="font-size: 18px;font-weight: bold;">Get the final result of the sum of the two values.</h3>
+							<h2 class="content-header-title text-dark">dark-mode</h2>
+							<h3 style="font-size: 18px;font-weight: bold;">Provide two different models on the website.</h3>
 						</div>
 					</div>
+					
                     <div class="row match-height">
 						<div class="col-lg-12 col-md-12" style="margin-top: 55px;">
-							<div class="parentResult">
-                                <input type="number" value="1" class="v-var-1">
-                                <input type="number" value="2" class="v-var-2">
-                                <button class="v-operation">total (+)</button>
-                                <p class="v-result">0</p>
+							<h2 class="mb-3">dark-mode</h2>
+							<div class="parentDarkMode">
+								<div class="v-dark-mode">
+									<div class="toggle-mode"></div>
+								</div>
                             </div>
 						</div>
 						<div class="col-lg-12 col-md-12">
@@ -135,25 +136,59 @@
 								<pre style="background-color: #262d47;color: white;">
 							<code class="language-html" data-lang="html">
 
-						<span>// add class <b class="tags" style="color: white;">result, border (opsi), background-color (opsi) and component (opsi)</b> of tag body</span>
-						<span class="plus text-white">+</span> <span class="nt">&lt;body</span> <span class="na">class=</span><span style="color: rgba(149, 149, 149, 0.637);">"component background-color</span> <span style="color: rgb(14, 227, 235);">result"</span><span class="nt">&gt;</span>
+						<span>// add class <b class="tags" style="color: white;">dark-mode</b> of tag body</span>
+						<span class="plus text-white">+</span> <span class="nt">&lt;body</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">dark-mode"</span><span class="nt">&gt;</span>
 
 
-						<span class="nt">&lt;input</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"v-var-1"</span> <span class="na">value=</span><span style="color: rgb(14, 227, 235);">"1"</span><span class="nt">&gt;</span>
-                                                <span class="nt">&lt;input</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"v-var-2"</span> <span class="na">value=</span><span style="color: rgb(14, 227, 235);">"2"</span><span class="nt">&gt;</span>
-                        
-                                                <span class="nt">&lt;button</span> <span class="na">class=</span><span style="color: rgba(149, 149, 149, 0.637);">"v-btn v-green v-radius-xl</span> <span style="color: rgb(14, 227, 235);">v-operation"</span><span class="nt">&gt;</span>
-                                                <span class="df">total (+)</span>
-                                                <span class="nt">&lt;/button&gt;</span>
-                        
-						<span class="nt">&lt;p</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">v-result"</span><span class="nt">&gt;</span><span class="df">0</span><span class="nt">&lt;/p&gt;</span>
+						<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">v-template-dark-mode"</span><span class="nt">&gt;</span>
+						<span class="nt">&lt;/div&gt;</span>
+						<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"v-dark-mode"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"toggle-mode"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;/div&gt;</span>
+						<span class="nt">&lt;/div&gt;</span>
 							
 							</code></pre>
 							</figure>
                         </div>
 						<div class="col-lg-12 col-md-12">
 							<div>
-								<p class="select">v-result version</p>
+								<p class="select">v-dark-mode version</p>
+							</div>
+						</div>
+					</div>
+                    
+
+                    <div class="row match-height">
+						<div class="col-lg-12 col-md-12" style="margin-top: 55px;">
+							<h2 class="mb-3">light-mode</h2>
+							<div class="parentDarkMode2">
+								<div class="v-dark-mode2">
+									<div class="toggle-mode2"></div>
+								</div>
+                            </div>
+						</div>
+						<div class="col-lg-12 col-md-12">
+							<figure class="highlight">
+								<pre style="background-color: #262d47;color: white;">
+							<code class="language-html" data-lang="html">
+
+						<span>// add class <b class="tags" style="color: white;">dark-mode</b> of tag body</span>
+						<span class="plus text-white">+</span> <span class="nt">&lt;body</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">dark-mode"</span><span class="nt">&gt;</span>
+
+
+						<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"v-template-light-mode"</span><span class="nt">&gt;</span>
+						<span class="nt">&lt;/div&gt;</span>
+						<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"v-dark-mode"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;div</span> <span class="na">class=</span><span style="color: rgb(14, 227, 235);">"toggle-mode"</span><span class="nt">&gt;</span>
+							<span class="nt">&lt;/div&gt;</span>
+						<span class="nt">&lt;/div&gt;</span>
+							
+							</code></pre>
+							</figure>
+                        </div>
+						<div class="col-lg-12 col-md-12">
+							<div>
+								<p class="select">v-light-mode version</p>
 							</div>
 						</div>
 					</div>
@@ -174,7 +209,51 @@
 					target="_blank">valclass</a></span>
 		</div>
 	</footer>
+	<script>
+		if (document.querySelector('div.v-dark-mode')) {
+		s = 0;
+		document.querySelector('div.toggle-mode').addEventListener('click', () => {
+        s += 1;
+			if (s % 2 == 0) {
+					document.querySelector('div.v-dark-mode').classList.remove('v-dark-mode-on');
+					document.querySelector('div.toggle-mode').classList.remove('modeDarks');
+					document.querySelector('div.parentDarkMode').classList.remove('darkModes');
+			} else {
+					document.querySelector('div.v-dark-mode').classList.add('v-dark-mode-on');
+					document.querySelector('div.toggle-mode').classList.add('modeDarks');
+					document.querySelector('div.parentDarkMode').classList.add('darkModes');
+				}
+			})
+		}
 
+		if (document.querySelector('div.v-dark-mode')) {
+		f = 0;
+		document.querySelector('div.toggle-mode').addEventListener('click', () => {
+        f += 1;
+			if (f % 2 == 0) {
+					document.querySelector('div.v-template-light-mode').classList.remove('lightModes')
+			} else {
+					document.querySelector('div.v-template-light-mode').classList.add('lightModes');
+			}
+		})
+	}
+
+		if (document.querySelector('div.v-dark-mode2')) {
+		s = 0;
+		document.querySelector('div.toggle-mode2').addEventListener('click', () => {
+        s += 1;
+			if (s % 2 == 0) {
+					document.querySelector('div.v-dark-mode2').classList.remove('v-dark-mode-on2');
+					document.querySelector('div.toggle-mode2').classList.remove('modeDarks2');
+					document.querySelector('div.parentDarkMode2').classList.remove('darkModes2');
+			} else {
+					document.querySelector('div.v-dark-mode2').classList.add('v-dark-mode-on2');
+					document.querySelector('div.toggle-mode2').classList.add('modeDarks2');
+					document.querySelector('div.parentDarkMode2').classList.add('darkModes2');
+				}
+			})
+		}
+	</script>
 	<!-- BEGIN VENDOR JS-->
 	<script src="../theme-assets/vendors/js/vendors.min.js" type="text/javascript"></script>
 	<!-- BEGIN VENDOR JS-->
@@ -183,7 +262,6 @@
 	<!-- BEGIN CHAMELEON  JS-->
 	<script src="../theme-assets/js/core/app-menu-lite.js" type="text/javascript"></script>
 	<script src="../theme-assets/js/core/app-lite.js" type="text/javascript"></script>
-	<script src="./result.js" type="text/javascript"></script>
 	<!-- END CHAMELEON  JS-->
 	<!-- BEGIN PAGE LEVEL JS-->
 	<!-- END PAGE LEVEL JS-->
